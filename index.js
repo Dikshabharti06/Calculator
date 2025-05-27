@@ -1,6 +1,7 @@
 function pick(val){
     document.getElementById("a").value +=val;
-}                
+}
+                
 function clr(){
     document.getElementById("a").value=" ";
 }
