@@ -2,35 +2,10 @@
 <html>
     <head>
         <title>Calculator</title>
-        <style>
-            table{
-                padding: 20px;
-                width: 400px;
-                height: 600px;
-                background-color: grey;
-                margin-left: 13.5cm;
-            }
-            input, button{
-                height: 100%;
-                width: 100%;
-            }
-        </style>
+        <link rel="stylesheet" href="index.css">
+        <script src="calc.js"></script>
     </head>
     <body>
-        <script>
-            function pick(val){
-                document.getElementById("a").value +=val;
-            }
-            function clr(){
-                document.getElementById("a").value=" ";
-            }
-            function solve(){
-                var x=document.getElementById("a").value;
-                var y=eval(x);
-                document.getElementById("a").value=y;
-
-            }
-        </script>
             <table>
                 <tr>
                     <th colspan="3">
