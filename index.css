@@ -1,0 +1,12 @@
+table{
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    background-color: grey;
+    margin-left: 13.5cm;
+}
+input, button{
+    height: 100%;
+    width: 100%;
+}
+                
