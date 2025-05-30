@@ -6,29 +6,21 @@
         <script src="calc.js"></script>
     </head>
     <body>
-        <script>
-            function pick(val){
-                 document.getElementById("a").value +=val;
-            }
-            function clr(){
-                document.getElementById("a").value=" ";
-            }
-            function solve(){
-                var x=document.getElementById("a").value;
-                var y=eval(x);
-                document.getElementById("a").value=y;
-
-            }
-            </script>
+        <script src="index.js"></script>
+            
+            <div class="container">
+                <div class="box">
             <table>
                 <tr>
                     <th colspan="3">
                         <input type="text" id="a">
                     </th>
                     <th>
-                        <input type="button" onclick="clr()" value="C">
+                        <input type="button" id="ab" onclick="clr()" value="C">
                     </th>
                 </tr>
+                </table>
+                <table>
                 <tr>
                     <th>
                         <input type="button" onclick="pick(1)" value="1">
@@ -40,7 +32,7 @@
                         <button type="button" onclick="pick(3)">3</button>
                     </th>
                     <th>
-                        <button type="button" onclick="pick('+')">+</button>
+                        <button type="button" id="ab" onclick="pick('+')">+</button>
                     </th>
                 </tr>
                 <tr>
@@ -54,7 +46,7 @@
                         <button type="button" onclick="pick(6)">6</button>
                     </th>
                     <th>
-                        <button type="button" onclick="pick('-')">-</button>
+                        <button type="button" id="ab" onclick="pick('-')">-</button>
                     </th>
                 </tr>
                 <tr>
@@ -68,7 +60,7 @@
                         <button type="button" onclick="pick(9)">9</button>
                     </th>
                     <th>
-                        <button type="button" onclick="pick('*')">*</button>
+                        <button type="button" id="ab" onclick="pick('*')">*</button>
                     </th>
                 </tr>
                 <tr>
@@ -82,9 +74,11 @@
                         <button type="button" onclick="solve()">=</button>
                     </th>
                     <th>
-                        <button type="button" onclick="pick('/')">/</button>
+                        <button type="button" id="ab" onclick="pick('/')">/</button>
                     </th>
                 </tr>
             </table>
+            </div>
+            </div>
     </body>
 </html>

@@ -1,12 +1,26 @@
-table{
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 350px;
+    height: 60%;
     padding: 20px;
-    width: 400px;
-    height: 600px;
-    background-color: grey;
-    margin-left: 13.5cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:rgb(44, 43, 43);
 }
 input, button{
-    height: 100%;
-    width: 100%;
+    height: 80px;
+    width: 80px;
+}
+#a{
+    width: 240px;
+}
+#ab{
+    background-color: rgb(180, 58, 13);
 }
                 
